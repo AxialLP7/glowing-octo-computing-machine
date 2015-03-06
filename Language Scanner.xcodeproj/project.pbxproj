@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4A461E41AAA26C000C95068 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4A461E31AAA26C000C95068 /* main.cpp */; };
+		F4A461EB1AAA3B0E00C95068 /* fa.C in Sources */ = {isa = PBXBuildFile; fileRef = F4A461EA1AAA3B0E00C95068 /* fa.C */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		F4A461E01AAA26C000C95068 /* Language Scanner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Language Scanner"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4A461E31AAA26C000C95068 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F4A461EA1AAA3B0E00C95068 /* fa.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fa.C; path = ../fa.C; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		F4A461E21AAA26C000C95068 /* Language Scanner */ = {
 			isa = PBXGroup;
 			children = (
-				F4A461E31AAA26C000C95068 /* main.cpp */,
+				F4A461EA1AAA3B0E00C95068 /* fa.C */,
 			);
 			path = "Language Scanner";
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4A461E41AAA26C000C95068 /* main.cpp in Sources */,
+				F4A461EB1AAA3B0E00C95068 /* fa.C in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +232,7 @@
 				F4A461E91AAA26C000C95068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
